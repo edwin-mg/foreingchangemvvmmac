@@ -41,7 +41,7 @@
             <Picker
                 ItemDisplayBinding="{Binding Name}"
                 ItemsSource="{Binding Rates}"
-                SelectedItem="{Binding TragetRate, Mode=TwoWay}"
+                SelectedItem="{Binding TargetRate, Mode=TwoWay}"
                 Title="Select a Target rate...">
             </Picker>
             <ActivityIndicator
